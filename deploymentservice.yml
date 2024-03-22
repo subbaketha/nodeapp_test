@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nodeserver
-        image: thetips4you/nodeapp:latest
+        image: subbaketha/subba:nodeapp-k8-dep
         ports:
         - containerPort: 3000
         
